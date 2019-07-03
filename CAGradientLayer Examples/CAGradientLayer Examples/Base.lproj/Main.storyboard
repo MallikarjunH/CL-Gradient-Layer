@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CAGradientLayer_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x4F-5v-cew">
+                                <rect key="frame" x="48" y="45" width="298" height="186"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="298" id="eDi-WU-lJi"/>
+                                    <constraint firstAttribute="height" constant="186" id="qhA-Q0-3Pd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tla-qL-inU">
+                                <rect key="frame" x="48" y="281" width="298" height="186"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="CAk-Oe-vLg"/>
+                                    <constraint firstAttribute="width" constant="298" id="nfC-hN-XAA"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EXE-C3-Fci">
+                                <rect key="frame" x="48" y="507" width="298" height="186"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="298" id="XlJ-PE-04z"/>
+                                    <constraint firstAttribute="height" constant="186" id="lpk-EH-ajN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EXE-C3-Fci" secondAttribute="bottom" constant="43" id="0Ty-S3-O4R"/>
+                            <constraint firstItem="tla-qL-inU" firstAttribute="top" secondItem="x4F-5v-cew" secondAttribute="bottom" constant="50" id="22a-OJ-P0L"/>
+                            <constraint firstItem="x4F-5v-cew" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="EdF-IH-slh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x4F-5v-cew" secondAttribute="trailing" constant="68" id="JNp-iu-Twd"/>
+                            <constraint firstItem="tla-qL-inU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="Nb2-O9-OOw"/>
+                            <constraint firstItem="EXE-C3-Fci" firstAttribute="top" secondItem="tla-qL-inU" secondAttribute="bottom" constant="40" id="SKL-u6-z7R"/>
+                            <constraint firstItem="x4F-5v-cew" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="fhi-Rs-NoU"/>
+                            <constraint firstItem="EXE-C3-Fci" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="z6s-mE-MKh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="view1" destination="x4F-5v-cew" id="Kfi-4u-7pP"/>
+                        <outlet property="view2" destination="tla-qL-inU" id="Cpw-V3-qWe"/>
+                        <outlet property="view3" destination="EXE-C3-Fci" id="aXb-wH-XAA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92.753623188405811" y="132.88043478260872"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2Lv-xb-dK8">
+            <objects>
+                <viewController id="NE8-jf-W3t" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9qZ-MD-faB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stories-I-Want-to-Tell-You-in-Person-075-pub-Lally-Katz-by-Gary-Heery" translatesAutoresizingMaskIntoConstraints="NO" id="XAR-zC-FBF">
+                                <rect key="frame" x="78" y="52" width="224" height="303"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="DI7-oL-hdF">
+                                <rect key="frame" x="55" y="236" width="271" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SKY-2g-lge"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N93-tS-tw5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="759.4202898550725" y="130.43478260869566"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rectangle" width="153" height="64.666664123535156"/>
+        <image name="Stories-I-Want-to-Tell-You-in-Person-075-pub-Lally-Katz-by-Gary-Heery" width="2000" height="2671"/>
+    </resources>
+</document>
